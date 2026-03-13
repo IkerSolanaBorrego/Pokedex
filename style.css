@@ -1,0 +1,28 @@
+body {
+    
+    background-image: url('./Imagenes/kanto-map.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Jersey 10', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+li {
+    font-family: 'Jersey 10', sans-serif;
+    color: white;
+}
