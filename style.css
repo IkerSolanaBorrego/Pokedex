@@ -1,4 +1,4 @@
-body {
+.fondoindex {
     
     background-image: url('./Imagenes/kanto-map.jpeg');
     background-size: cover;
@@ -8,21 +8,41 @@ body {
     width: 100%;
 }
 
-h1 {
-    font-size: 50px;
+.h1index {
+    font-size: 35px;
     text-align: center;
     letter-spacing: 3px;
-    font-family: 'Jersey 10', sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
     width: fit-content;
     margin: 0 auto;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 li {
-    font-family: 'Jersey 10', sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: black;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
 }
