@@ -30,12 +30,16 @@ li {
     line-height: 24px;
 }
 
-a {
+li>a {
     color: white;
     text-decoration: none;
 }
-a:hover {
+li>a:hover {
     color: yellow;
+}
+a {
+    color: black;
+    text-decoration: none;
 }
 
 h1 {
@@ -59,6 +63,16 @@ p {
 }
 .fuego {
     background-color: orange; 
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+.fantasma {
+    background-color: #7961A3; 
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+.veneno {
+    background-color: #A36BB0; 
     padding: 2px 8px;
     border-radius: 6px;
 }
@@ -91,3 +105,4 @@ h4 {
     justify-content: center;
     gap: 10px;
 }
+
