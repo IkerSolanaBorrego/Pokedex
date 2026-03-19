@@ -76,6 +76,16 @@ p {
     padding: 2px 8px;
     border-radius: 6px;
 }
+.dragon {
+    background-color: #4F8CA6; 
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+.psiquico {
+    background-color: #E35FA4; 
+    padding: 2px 8px;
+    border-radius: 6px;
+}
 button {
     color:white;
     background-color: red;
@@ -106,3 +116,26 @@ h4 {
     gap: 10px;
 }
 
+.flecha {
+    width: 100px;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    img {
+        max-width: 90px;
+    }
+    .flecha {
+        width: 40px;
+    }
+    p  {
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 10px;
+    }
+}
