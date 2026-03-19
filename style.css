@@ -119,12 +119,10 @@ h4 {
 .flecha {
     width: 100px;
 }
-
 img {
     max-width: 250px;
     height: auto;
 }
-
 @media (max-width: 768px) {
     img {
         max-width: 90px;
