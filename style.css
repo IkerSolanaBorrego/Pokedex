@@ -1,5 +1,5 @@
+/* Para poner la imagen de fondo */
 .bodyindex {
-    
     background-image: url('./Imagenes/kanto-map.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,6 +8,7 @@
     width: 100%;
 }
 
+/* Titulo "Pokedex" del inicio */
 .h1index {
     font-size: 35px;
     text-align: center;
@@ -22,6 +23,7 @@
     border-radius: 10px;
 }
 
+/* Lista de pokemons del inicio */
 li {
     font-family: 'Press Start 2P', sans-serif;
     color: white;
@@ -29,7 +31,6 @@ li {
     letter-spacing: 2px;
     line-height: 24px;
 }
-
 li>a {
     color: white;
     text-decoration: none;
@@ -37,11 +38,13 @@ li>a {
 li>a:hover {
     color: yellow;
 }
-a {
-    color: black;
-    text-decoration: none;
+
+/* Fondo de la pagina de los pokemons */
+.bodypokemons {
+    background-color: antiquewhite;
 }
 
+/* Fuente de letra para los titulos y parrafos */
 h1 {
     font-size: 35px;
     text-align: center;
@@ -53,14 +56,58 @@ h1 {
     margin: 0 auto;
     padding: 10px 20px;
 }
-
-.bodypokemons {
-    background-color: antiquewhite;
+h3 {
+    font-family: 'Press Start 2P' , 'sans-serif';
 }
-
+h4 {
+    font-family: 'Press Start 2P' , 'sans-serif';
+}
 p {
     font-family: 'Press Start 2P' , sans-serif ;
 }
+
+/* Boton volver al inicio */
+button {
+    color:white;
+    background-color: red;
+    border-radius: 8px;
+    border-color: red;
+    font-family: 'Press Start 2P' , 'sans-serif';
+    padding:6px 14px;
+    text-align: center;
+}
+button:hover {
+    font-size: 14px;
+}
+
+/* Linia evolutiva de los pokemons */
+div {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.evoluciones {
+    display: flex;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Tamaño imagenes */
+.flecha {
+    width: 100px;
+}
+img {
+    max-width: 250px;
+    height: auto;
+}
+
+
+/* Tipos de los pokemons*/
 .fuego {
     background-color: orange; 
     padding: 2px 8px;
@@ -86,43 +133,8 @@ p {
     padding: 2px 8px;
     border-radius: 6px;
 }
-button {
-    color:white;
-    background-color: red;
-    border-radius: 8px;
-    border-color: red;
-    font-family: 'Press Start 2P' , 'sans-serif';
-    padding:6px 14px;
-    text-align: center;
-}
-div {
-    text-align: center;
-}
-button:hover {
-    font-size: 14px;
-}
-h3 {
-    font-family: 'Press Start 2P' , 'sans-serif';
-}
-h4 {
-    font-family: 'Press Start 2P' , 'sans-serif';
-}
-.evoluciones {
-    display: flex;
-    height: 200px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
 
-.flecha {
-    width: 100px;
-}
-img {
-    max-width: 250px;
-    height: auto;
-}
+/* Esto hace que en movil se vea mas pequeño */
 @media (max-width: 768px) {
     img {
         max-width: 90px;
